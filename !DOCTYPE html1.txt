@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>School Time Table</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #e2e2e2;
+    color: #555;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .lunch {
+    background-color: #ffe0b2;
+    font-weight: bold;
+  }
+  .lab {
+    background-color: #c8e6c9;
+  }
+</style>
+</head>
+<body>
+
+<h1>Weekly Time Table</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time / Day</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>9:00 - 10:00</td>
+      <td>Math</td>
+      <td>Science</td>
+      <td>English</td>
+      <td>History</td>
+      <td>Art</td>
+    </tr>
+    <tr>
+      <td>10:00 - 11:00</td>
+      <td>Physics</td>
+      <td>Chemistry</td>
+      <td>Math</td>
+      <td>Biology</td>
+      <td>Music</td>
+    </tr>
+    <tr>
+      <td>11:00 - 12:00</td>
+      <td>English</td>
+      <td>History</td>
+      <td>Science</td>
+      <td>Math</td>
+      <td>Drama</td>
+    </tr>
+    <tr>
+      <td>12:00 - 1:00</td>
+      <td colspan="5" class="lunch">Lunch Break</td>
+    </tr>
+    <tr>
+      <td>1:00 - 2:00</td>
+      <td>Chemistry</td>
+      <td>Physics</td>
+      <td class="lab">Computer Lab</td>
+      <td>English</td>
+      <td>PE</td>
+    </tr>
+    <tr>
+      <td>2:00 - 3:00</td>
+      <td>Biology</td>
+      <td>Art</td>
+      <td>History</td>
+      <td class="lab">Science Lab</td>
+      <td>Math</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
